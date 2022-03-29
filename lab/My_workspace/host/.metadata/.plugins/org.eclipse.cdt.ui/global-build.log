@@ -1,0 +1,6 @@
+13:37:59 **** Incremental Build of configuration Debug for project Bai6.3_Lab6 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Bai6.3_Lab6.exe main.o 
+Info: Nothing to build for Bai6.3_Lab6
+Info: Nothing to build for Bai6.3_Lab6

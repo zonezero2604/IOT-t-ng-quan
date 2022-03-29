@@ -1,0 +1,92 @@
+
+
+/*
+ * main.c
+ *
+ *  Created on: Mar 26, 2022
+ *      Author: chau
+ */
+
+
+#include <stdio.h>
+
+void inSoNgay(int ngay,int nam)
+{
+
+    switch (ngay) {
+    // Truong hop 31 ngay
+    case 1:
+    case 3:
+    case 5:
+    case 7:
+    case 8:
+    case 10:
+    case 12:
+        printf("Thang %d 31 Ngay.\n",ngay);
+        fflush(stdout);
+        break;
+
+    // Truong hop 30 ngay
+    case 4:
+    case 6:
+    case 9:
+    case 11:
+    	 printf("Thang %d 30 Ngay.\n",ngay);
+        fflush(stdout);
+        break;
+
+    // Case for 28/29 Days
+    case 2:
+    	if(nam%4 == 0)
+    	{
+    		 printf("Thang %d 28 Ngay.\n",ngay);
+    		 fflush(stdout);
+    	}
+    	else
+    	{
+    		 printf("Thang %d 29 Ngay.\n",ngay);
+    		fflush(stdout);
+    	}
+        break;
+
+    default:
+        printf("Thang khong hop le.\n");
+        fflush(stdout);
+        break;
+    }
+}
+
+int main ()
+{
+	float soThuNhat,soThuHai;
+	char toanTu;
+	//Hiển thị thông tin cho người dùng: nhập số và toán tử
+	do{
+		printf("moi ban nhap so va toan tu \n");
+		fflush(stdout);
+		printf("nhap soThuNhat \n");
+		fflush(stdout);
+		scanf("%f",&soThuNhat);
+		printf("nhap soThuHai \n");
+	    fflush(stdout);
+		scanf("%f",&soThuHai);
+		printf("nhap toanTu \n");
+	    fflush(stdout);
+	    scanf("%c",&toanTu);
+
+
+	}
+	while((toanTu != '+') && (toanTu != '-') && (toanTu != '*') && (toanTu != '/'));
+
+
+
+
+
+	 printf("Press enter key to exit this application");
+	 fflush(stdout);
+	 while(getchar() != '\n')
+	 {
+	//just read the input buffer and do nothing
+	 }
+     getchar();
+}

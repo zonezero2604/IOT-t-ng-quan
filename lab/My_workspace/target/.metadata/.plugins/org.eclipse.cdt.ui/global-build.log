@@ -1,0 +1,17 @@
+10:57:06 **** Incremental Build of configuration Debug for project Bai7.3_Lab7 ****
+make -j4 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F401RE -DSTM32 -DSTM32F401RETx -DSTM32F4 -c -I../Inc -I"G:/funixIot/introIOT/lab/My_workspace/target/Bai7.3_Lab7/SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/CMSIS/Include" -I"G:/funixIot/introIOT/lab/My_workspace/target/Bai7.3_Lab7/SDK_1.0.3_NUCLEO-F401RE/shared/Drivers/STM32F401RE_StdPeriph_Driver/inc" -I"G:/funixIot/introIOT/lab/My_workspace/target/Bai7.3_Lab7/SDK_1.0.3_NUCLEO-F401RE/shared/Middle/button" -I"G:/funixIot/introIOT/lab/My_workspace/target/Bai7.3_Lab7/SDK_1.0.3_NUCLEO-F401RE/shared/Middle/buzzer" -I"G:/funixIot/introIOT/lab/My_workspace/target/Bai7.3_Lab7/SDK_1.0.3_NUCLEO-F401RE/shared/Middle/led" -I"G:/funixIot/introIOT/lab/My_workspace/target/Bai7.3_Lab7/SDK_1.0.3_NUCLEO-F401RE/shared/Middle/rtos" -I"G:/funixIot/introIOT/lab/My_workspace/target/Bai7.3_Lab7/SDK_1.0.3_NUCLEO-F401RE/shared/Middle/sensor" -I"G:/funixIot/introIOT/lab/My_workspace/target/Bai7.3_Lab7/SDK_1.0.3_NUCLEO-F401RE/shared/Middle/serial" -I"G:/funixIot/introIOT/lab/My_workspace/target/Bai7.3_Lab7/SDK_1.0.3_NUCLEO-F401RE/shared/Middle/ucglib" -I"G:/funixIot/introIOT/lab/My_workspace/target/Bai7.3_Lab7/SDK_1.0.3_NUCLEO-F401RE/shared/Utilities" -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "Bai7.3_Lab7.elf" @"objects.list"  -lLibraries -mcpu=cortex-m4 -T"G:\funixIot\introIOT\lab\My_workspace\target\Bai7.3_Lab7\STM32F401RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Bai7.3_Lab7.map" -Wl,--gc-sections -static -L"G:\funixIot\introIOT\lab\My_workspace\target\Bai7.3_Lab7\SDK_1.0.3_NUCLEO-F401RE\lib_stm" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Bai7.3_Lab7.elf
+ 
+arm-none-eabi-size   Bai7.3_Lab7.elf 
+arm-none-eabi-objdump -h -S  Bai7.3_Lab7.elf  > "Bai7.3_Lab7.list"
+arm-none-eabi-objcopy  -O binary  Bai7.3_Lab7.elf  "Bai7.3_Lab7.bin"
+   text	   data	    bss	    dec	    hex	filename
+   7036	     12	   1588	   8636	   21bc	Bai7.3_Lab7.elf
+Finished building: default.size.stdout
+ 
+Finished building: Bai7.3_Lab7.bin
+ 
+Finished building: Bai7.3_Lab7.list
+ 

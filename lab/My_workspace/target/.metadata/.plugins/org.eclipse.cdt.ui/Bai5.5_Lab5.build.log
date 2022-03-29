@@ -1,0 +1,10 @@
+06:04:27 **** Build of configuration Debug for project Bai5.5_Lab5 ****
+make -j4 all 
+arm-none-eabi-size   Bai5.5_Lab5.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5276	    108	   1596	   6980	   1b44	Bai5.5_Lab5.elf
+Finished building: default.size.stdout
+ 
+
+06:04:27 Build Finished. 0 errors, 0 warnings. (took 487ms)
+

@@ -1,0 +1,10 @@
+07:20:03 **** Incremental Build of configuration Debug for project Bai7.2_Lab7 ****
+make -j4 all 
+arm-none-eabi-size   Bai7.2_Lab7.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7036	     12	   1588	   8636	   21bc	Bai7.2_Lab7.elf
+Finished building: default.size.stdout
+ 
+
+07:20:03 Build Finished. 0 errors, 0 warnings. (took 282ms)
+
