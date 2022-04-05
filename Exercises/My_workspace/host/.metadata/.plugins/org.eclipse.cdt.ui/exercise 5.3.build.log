@@ -1,4 +1,4 @@
-13:56:27 **** Rebuild of configuration Debug for project exercise 5.3 ****
+14:59:05 **** Incremental Build of configuration Debug for project exercise 5.3 ****
 Info: Internal Builder is used for build
 gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
 ..\main.c: In function 'main':
@@ -6,5 +6,5 @@ gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c"
    ++(*ptr);
    ^~
 
-13:56:27 Build Failed. 1 errors, 0 warnings. (took 264ms)
+14:59:05 Build Failed. 1 errors, 0 warnings. (took 504ms)
 

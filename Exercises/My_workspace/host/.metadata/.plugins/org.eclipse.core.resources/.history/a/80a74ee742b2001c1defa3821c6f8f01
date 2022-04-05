@@ -1,0 +1,49 @@
+/*
+ * main.c
+ *
+ *  Created on: Feb 11, 2022
+ *      Author: chau
+ */
+
+
+#include <stdio.h>
+long gt(int n);
+
+
+
+
+int main() {
+
+
+  int a,kiemTra;
+  do {
+     printf("nhap so a \n ");
+     fflush(stdout);
+     kiemTra = scanf("%d",&a);
+     if (kiemTra < 1) {    // Clean the input
+       while (getchar() != '\n') ;
+     }
+  } while(kiemTra < 1 ); // ktra nhập số nguyên nếu hàm scanf sai nó sẽ return 1 số <1
+
+  printf("gt cua %d la :%ld",a,gt(a));
+
+
+	 while(getchar() != '\n')
+	 {
+	//just read the input buffer and do nothing
+	 }
+ getchar();
+   return 0;
+}
+
+long gt(int n)
+{
+	int i;
+	long gt = 1;
+	for(i=1;i<=n;i++)
+	{
+		gt *= i;
+	}
+	return gt;
+	}
+

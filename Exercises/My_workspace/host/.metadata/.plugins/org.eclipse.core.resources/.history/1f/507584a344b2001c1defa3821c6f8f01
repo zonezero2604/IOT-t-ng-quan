@@ -1,0 +1,46 @@
+/*
+ * main.c
+ *
+ *  Created on: Feb 11, 2022
+ *      Author: chau
+ */
+
+
+#include <stdio.h>
+
+
+
+
+int main() {
+
+
+  int num,kiemTra,r,sum;
+  sum=0;
+
+
+  do {
+     printf("nhap input \n ");
+     fflush(stdout);
+     kiemTra = scanf("%d",&num);
+//     if (kiemTra < 1) {    // Clean the input
+//       while (getchar() != '\n') ;
+//     }
+  } while(kiemTra < 1 && num>0);
+
+  for(; num!= 0; num=num/10)
+  {
+	  r = num%10;
+	  sum = sum*10+r;
+
+  }
+  printf("%d \n ",sum);
+       fflush(stdout);
+
+
+	 while(getchar() != '\n')
+	 {
+	//just read the input buffer and do nothing
+	 }
+ getchar();
+   return 0;
+}

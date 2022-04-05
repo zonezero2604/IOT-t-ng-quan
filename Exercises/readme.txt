@@ -196,3 +196,56 @@ từ cảm biến.
 Lab 7.5:
 Yêu cầu: Viết chương trình quản lý bản tin giao tiếp đơn giản giữa máy tính (HOST)
 và Board STM32 (MCU) với giá trị được nhập từ bàn phím:
+
+Bài 1: Hiển thị hình tam giác bằng dấu sao (*)
+Bài 2: Tính giai thừa của một số
+Bài 3: Đảo thứ tự các chữ số của một số
+Bài 4: Hiển thị bảng nhân
+Bài 5: Hiển thị tất cả số chẵn
+
+Lab 8.1:
+Yêu cầu: Viết chương trình đảo trạng thái của led trên Board STM32 với chu kì T =
+500ms sử dụng vòng lặp theo hai cách: while hoặc for.
+
+Lab 8.2:
+Yêu cầu: Viết chương trình điều khiển băm xung PWM cho còi Buzzer với chu kỳ T
+= 1s sử dụng vòng lặp theo hai cách: while hoặc for.
+
+
+Lab 8.3:
+Yêu cầu: Viết chương trình nhận nút nhấn đầu vào từ Board STM32 Nucleo sử
+dụng vòng lặp tạo độ trễ làm giảm rung phím theo hai cách: while hoặc for ở Lab
+8.1.
+
+
+Lab 8.4:
+Yêu cầu: Viết chương trình thực hiện việc nhận và hiển thị dữ liệu từ cảm biến nhiệt
+độ-độ ẩm sử dụng vòng lặp while hoặc do-while.
+- Nếu trạng thái đọc về từ cảm biến là ready thì hiển thị giá trị nhiệt độ và độ ẩm với
+chu kỳ lấy mẫu T = 1s ra màn hình LCD.
+
+Lab 8.5:
+Yêu cầu: Viết chương trình xử lý nhận dữ liệu từ cảm biến ánh sáng sử dụng vòng
+lặp while hoặc do-while:
+- Nếu trạng thái đọc về từ cảm biến là ready thì hiển thị giá trị cường độ ánh sáng
+với chu kỳ lấy mẫu T = 1s ra màn hình LCD.
+
+Exercise 9.1:
+Yêu cầu: Viết hàm tìm ước số chung lớn nhất uscln(int x, int y) và bội số chung nhỏ
+nhất bscnn(int x, int y) của hai số.
+
+Exercise 9.2:
+Yêu cầu: Lập hàm tính giai thừa và dùng hàm này tính tổng:
+S = 1! + 2! +...+N! (N nhập từ bàn phím và &lt;=10)
+
+Exercise 9.3:
+Yêu cầu: Viết chương trình hoán đổi hai số nguyên a, b và hiển thị trên giao diện
+C/C++ application.
+
+Exercise 9.4:
+Yêu cầu: Viết chương trình đảo chuỗi và hiển thị trên giao diện C/C++ application
+sử dụng hàm đệ quy.
+
+Exercise 9.5:
+Yêu cầu: Viết chương trình hiển thị tất cả các số chẵn hoặc lẻ trên giao diện C/C++
+application sử dụng hàm đệ quy.

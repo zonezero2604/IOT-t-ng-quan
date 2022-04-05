@@ -1,0 +1,80 @@
+/*
+ * main.c
+ *
+ *  Created on: Feb 11, 2022
+ *      Author: chau
+ */
+
+
+#include <stdio.h>
+int uscln(int a, int b);
+int bscnn(int a, int b);
+
+
+
+
+int main() {
+
+
+  int a,b,kiemTra;
+  do {
+     printf("nhap 2 so a va b \n ");
+     fflush(stdout);
+     kiemTra = scanf("%d %d",&a,&b);
+     if (kiemTra < 1) {    // Clean the input
+       while (getchar() != '\n') ;
+     }
+  } while(kiemTra < 1 ); // ktra nhập số nguyên nếu hàm scanf sai nó sẽ return 1 số <1
+
+  printf("uscln cua %d va %d la:%d",a,b,uscln(a,b));
+  fflush(stdout);
+  printf("bscnn cua %d va %d la:%d",a,b,bscnn(a,b));
+  fflush(stdout);
+
+	 while(getchar() != '\n')
+	 {
+	//just read the input buffer and do nothing
+	 }
+ getchar();
+   return 0;
+}
+
+int uscln(int a, int b)
+{
+	while(a != b)
+	{
+		if(a > b)
+		{
+			a -= b;
+		}
+		else
+		{
+			b -= a;
+		}
+	}
+	return a;
+	}
+
+int bscnn(int a, int b)
+{
+	int result = 0;
+	int max;
+	if(a>b)
+	{
+		max = a;
+	 }
+	else
+	{
+		max = b;
+	}
+	for(int i=max; i <= a*b; i++ )
+	{
+		if(((i % a) == 0) && ((i % b) == 0))
+			{
+			result = i;
+			break;
+			}
+	}
+	return result;
+	}
+

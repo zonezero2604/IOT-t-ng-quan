@@ -757,3 +757,73 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-28 20:35:39.888
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2022-03-29 18:32:48.475 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data G:\funixIot\introIOT\Exercises\My_workspace\host
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-03-29 18:33:00.178
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-03-29 18:33:00.294
+!MESSAGE Log4j initialized with config file G:\funixIot\introIOT\Exercises\My_workspace\host\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-03-29 18:33:16.076
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-29 18:34:18.859
+!MESSAGE Indexed 'exercise 8.1' (1 sources, 0 headers) in 0.196 sec: 8 declarations; 54 references; 1 unresolved inclusions; 0 syntax errors; 10 unresolved names (14%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-29 18:36:47.761
+!MESSAGE Indexed 'exercise 8.2' (1 sources, 0 headers) in 0.016 sec: 5 declarations; 25 references; 1 unresolved inclusions; 0 syntax errors; 4 unresolved names (12%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-29 20:08:22.066
+!MESSAGE Indexed 'exercise 8.3' (1 sources, 0 headers) in 0.024 sec: 7 declarations; 22 references; 1 unresolved inclusions; 0 syntax errors; 2 unresolved names (6.5%)
+
+!ENTRY com.st.stm32cube.ide.mcu.stackanalyzer 4 0 2022-03-29 20:14:28.810
+!MESSAGE Stackanalyzer failed to analyze input
+!STACK 0
+java.lang.Exception: File: G:\funixIot\introIOT\Exercises\My_workspace\host\exercise 8.3\Debug\exercise 8.2.exedo not exists
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:56)
+	at com.st.stm32cube.ide.mcu.utils.assembly.Disassembler.<init>(Disassembler.java:84)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.inputChanged(StackAnalyzerView.java:914)
+	at com.st.stm32cube.ide.mcu.stackanalyzer.ui.StackAnalyzerView.lambda$15(StackAnalyzerView.java:1256)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-29 20:14:55.951
+!MESSAGE Indexed 'exercise 8.4' (1 sources, 0 headers) in 0.009 sec: 5 declarations; 23 references; 1 unresolved inclusions; 0 syntax errors; 2 unresolved names (6.7%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-29 20:25:12.305
+!MESSAGE Indexed 'exercise 8.5' (1 sources, 0 headers) in 0.009 sec: 5 declarations; 23 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (9.7%)
+!SESSION 2022-04-02 11:07:22.483 -----------------------------------------------
+eclipse.buildId=Version 1.8.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data G:\funixIot\introIOT\Exercises\My_workspace\host
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-04-02 11:07:45.036
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-04-02 11:07:45.287
+!MESSAGE Log4j initialized with config file G:\funixIot\introIOT\Exercises\My_workspace\host\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-04-02 11:08:18.245
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-02 11:10:27.475
+!MESSAGE Indexed 'exercise 9.1' (1 sources, 0 headers) in 0.084 sec: 4 declarations; 18 references; 1 unresolved inclusions; 0 syntax errors; 2 unresolved names (8.3%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-02 11:59:03.559
+!MESSAGE Indexed 'exercise 9.2' (1 sources, 14 headers) in 0.297 sec: 1,291 declarations; 1,829 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-02 14:49:04.718
+!MESSAGE Indexed 'exercise 9.3' (1 sources, 24 headers) in 0.428 sec: 2,950 declarations; 3,830 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-02 14:59:40.534
+!MESSAGE Indexed 'exercise 9.5' (1 sources, 24 headers) in 0.371 sec: 2,937 declarations; 3,780 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-04-02 14:59:44.480
+!MESSAGE Indexed 'exercise 9.4' (1 sources, 0 headers) in 0.012 sec: 10 declarations; 21 references; 5 unresolved inclusions; 0 syntax errors; 2 unresolved names (6.1%)

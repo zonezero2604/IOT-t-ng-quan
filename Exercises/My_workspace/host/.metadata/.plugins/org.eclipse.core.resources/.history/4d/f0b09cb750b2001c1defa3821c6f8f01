@@ -1,0 +1,46 @@
+/*
+ * main.c
+ *
+ *  Created on: Feb 11, 2022
+ *      Author: chau
+ */
+
+
+#include <stdio.h>
+
+int giaiThua(int n)
+{
+    int giai_thua = 1;
+    for (int i = 1; i <= n; i++)
+        giai_thua *= i;
+    return giai_thua;
+}
+
+
+int main() {
+
+
+  int n,kiemTra;
+
+
+  do {
+     printf("nhap input \n ");
+     fflush(stdout);
+     kiemTra = scanf("%d",&n);
+     if (kiemTra < 1) {    // Clean the input
+       while (getchar() != '\n') ;
+     }
+  } while(kiemTra < 1);
+
+
+  scanf("%d",&n);
+  printf("%d",giaiThua(n));
+  fflush(stdout);
+
+	 while(getchar() != '\n')
+	 {
+	//just read the input buffer and do nothing
+	 }
+ getchar();
+   return 0;
+}

@@ -1,0 +1,15 @@
+18:21:44 **** Incremental Build of configuration Debug for project Bai7.5_Lab7 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Bai7.5_Lab7.exe main.o 
+Info: Nothing to build for Bai7.5_Lab7
+Info: Nothing to build for Bai7.5_Lab7
+Info: Nothing to build for Bai7.5_Lab7
+18:29:54 **** Rebuild of configuration Debug for project Bai1.1_Lab1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Bai1.1_Lab1.exe main.o 
+18:31:03 **** Incremental Build of configuration Debug for project Bai1.1_Lab1 ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o Bai1.1_Lab1.exe main.o 

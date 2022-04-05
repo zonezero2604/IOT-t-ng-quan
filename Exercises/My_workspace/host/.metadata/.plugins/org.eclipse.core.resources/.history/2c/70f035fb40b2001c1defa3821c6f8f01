@@ -1,0 +1,45 @@
+/*
+ * main.c
+ *
+ *  Created on: Feb 11, 2022
+ *      Author: chau
+ */
+
+
+#include <stdio.h>
+
+
+
+
+int main() {
+
+
+  int a,b,kiemTra;
+  do {
+     printf("nhap 2 so a va b \n ");
+     fflush(stdout);
+     kiemTra = scanf("%d %d",&a,&b);
+     if (kiemTra < 1) {    // Clean the input
+       while (getchar() != '\n') ;
+     }
+  } while(kiemTra < 1 ); // ktra nhập số nguyên nếu hàm scanf sai nó sẽ return 1 số <1
+
+
+
+	 while(getchar() != '\n')
+	 {
+	//just read the input buffer and do nothing
+	 }
+ getchar();
+   return 0;
+}
+
+uscln(int x, int y)
+{
+
+	}
+
+bscnn(int x, int y)
+{
+
+	}

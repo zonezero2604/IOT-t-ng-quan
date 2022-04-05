@@ -1,0 +1,44 @@
+/*
+ * main.c
+ *
+ *  Created on: Feb 11, 2022
+ *      Author: chau
+ */
+
+
+#include <stdio.h>
+
+
+
+
+int main() {
+
+
+  int num,kiemTra;
+  do {
+     printf("nhap input \n ");
+     fflush(stdout);
+     kiemTra = scanf("%d",&num);
+     if (kiemTra < 1) {    // Clean the input
+       while (getchar() != '\n') ;
+     }
+  } while(kiemTra < 1 && num>0);
+
+  for(int i=1; i<=num; i++)
+  {
+	  for(int j=1; j<=num; j++)
+	   {
+		  printf("%3d\t",i*j);
+		        fflush(stdout);
+	   }
+	  printf("\n");
+	        fflush(stdout);
+  }
+
+	 while(getchar() != '\n')
+	 {
+	//just read the input buffer and do nothing
+	 }
+ getchar();
+   return 0;
+}
